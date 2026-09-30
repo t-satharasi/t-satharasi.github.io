@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tsatharasi.github.io/sitemap.xml
+Sitemap: https://t-satharasi.github.io/sitemap.xml
