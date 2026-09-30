@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "Looking for PhD positions in Aerospace Engineering and Control theory for Fall 2027"
 
 profile:
   align: right
