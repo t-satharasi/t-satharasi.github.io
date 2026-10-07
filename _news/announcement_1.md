@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-07-15 8:35:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Paper **"Adaptive Control with Sparse Identification of Nonlinear Dynamics"** Accepted for oral presentation at the Conference on Decision and Control 2026.
