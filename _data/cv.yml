@@ -295,3 +295,28 @@ cv:
         start_date: 2022-08
         end_date: 2024-05
         summary: "Indian Institute of Technology Madras"
+    
+    Research Interests:
+      - name: Mathematically Rigorous Control
+        icon: fa-solid fa-tag
+        keywords: >
+          Nonlinear control, adaptive control, Lyapunov methods,
+          stability analysis, invariance, convergence guarantees
+
+      - name: Safety-Critical Control
+        icon: fa-solid fa-tag
+        keywords: >
+          Control Barrier Functions, Barrier States,
+          robust safety, output-feedback safety
+
+      - name: System Identification and Learning
+        icon: fa-solid fa-tag
+        keywords: >
+          Parameter estimation, excitation conditions,
+          directional forgetting, memory-based adaptive control
+
+      - name: Aerospace and Multi-Agent Systems
+        icon: fa-solid fa-tag
+        keywords: >
+          Flight control, spacecraft attitude control,
+          autonomous systems, containment, swarm herding
