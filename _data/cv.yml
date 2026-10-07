@@ -1,189 +1,297 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Trivikram Satharasi
+  label: Aerospace Engineer | Control Theory Researcher
+  email: t.satharasi@ufl.edu
+  location: Gainesville, FL
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    Aerospace engineering researcher interested in mathematically rigorous control,
+    nonlinear and adaptive control, safety-critical control, system identification,
+    and learning-based methods for aerospace and robotic systems. My work focuses on
+    developing analytical methods with provable stability, safety, and convergence
+    guarantees, together with simulation and experimental validation.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: trivikram-satharasi
+    - network: GitHub
+      username: t-satharasi
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: University of Florida
+        location: Gainesville, FL, USA
+        area: Aerospace Engineering
+        studyType: M.S.
+        start_date: 2024-08
+        end_date: 2026-05
+        score: "GPA: 3.93/4.00"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisor: Prof. Rushikesh Kamalapurkar"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Indian Institute of Technology Madras
+        location: Chennai, India
+        area: Aerospace Engineering
+        studyType: B.Tech.
+        start_date: 2020-11
+        end_date: 2024-05
+        score: "GPA: 9.03/10.00 | 3.93/4.00 WES"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Ranked in the top 5 of the graduating class"
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+    Research Interests:
+      - name: Mathematically Rigorous Control
+        icon: fa-solid fa-square-root-variable
+        keywords: >
+          Nonlinear control, adaptive control, Lyapunov methods,
+          invariance, stability analysis, convergence guarantees
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+      - name: Safety-Critical Control
+        icon: fa-solid fa-shield-halved
+        keywords: >
+          Barrier States, Control Barrier Functions, robust safety,
+          output-feedback safety, safety under uncertainty
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - name: System Identification and Adaptive Learning
+        icon: fa-solid fa-chart-line
+        keywords: >
+          Parameter estimation, sparse identification, excitation conditions,
+          directional forgetting, Memory Regressor Extension
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - name: Aerospace and Robotic Systems
+        icon: fa-solid fa-plane
+        keywords: >
+          Flight control, spacecraft attitude control, autonomous systems,
+          ground robots, multi-agent systems, ROS 2
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Safe Adaptive Feedback Control via Barrier States
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Trivikram Satharasi
+          - T. E. Ogri
+          - M. Qureshi
+          - K. Volle
+          - R. Kamalapurkar
+        publisher: IFAC World Congress
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2601.00476
+        summary: >
+          Accepted for presentation at the 2026 IFAC World Congress and
+          publication in IFAC-PapersOnLine.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Adaptive Control with Sparse Identification of Nonlinear Dynamics
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Trivikram Satharasi
+          - T. E. Ogri
+          - M. Qureshi
+          - K. Volle
+          - R. Kamalapurkar
+        publisher: IEEE Conference on Decision and Control
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2604.06338
+        summary: >
+          Accepted for presentation and publication in the Proceedings of
+          the IEEE Conference on Decision and Control 2026.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: A Hough Transform Approach to Safety-Aware Scalar Field Mapping Using Gaussian Processes
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - M. Qureshi
+          - Trivikram Satharasi
+          - T. E. Ogri
+          - K. Volle
+          - R. Kamalapurkar
+        publisher: IEEE Transactions on Control Systems Technology
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2604.20799
+        summary: "Under review. Submitted March 2026."
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: Online Input Bias Correction in Gaussian Process Regression
+        authors:
+          - M. Qureshi
+          - T. E. Ogri
+          - Trivikram Satharasi
+          - K. Volle
+          - R. Kamalapurkar
+        publisher: IEEE Robotics and Automation Letters
+        releaseDate: 2026
+        summary: "Under review. Submitted May 2026; revised August 2026."
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - title: On Sparsity and Directional Forgetting in Adaptive Control
+        authors:
+          - T. E. Ogri
+          - Trivikram Satharasi
+          - M. Qureshi
+          - K. Volle
+          - R. Kamalapurkar
+        publisher: IEEE Transactions on Automatic Control
+        releaseDate: 2026
+        summary: "Manuscript under review. Submitted August 2026."
 
-      - name: English
-        summary: "Fluent"
+      - title: Safe Output-Feedback Control via SDREs and Barrier States
+        authors:
+          - T. E. Ogri
+          - Trivikram Satharasi
+          - M. Qureshi
+          - K. Volle
+          - R. Kamalapurkar
+        publisher: Manuscript in preparation
+        releaseDate: 2026
+        summary: "In preparation for submission to IEEE Robotics and Automation Letters."
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: Directional Forgetting beyond Constant Subspace Excitation
+        authors:
+          - Trivikram Satharasi
+          - T. E. Ogri
+          - M. Qureshi
+          - K. Volle
+          - R. Kamalapurkar
+        publisher: Manuscript in preparation
+        releaseDate: 2027
+        summary: "In preparation for submission to IEEE Transactions on Automatic Control."
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+    Experience:
+      - company: University of Florida
+        position: Graduate Research Assistant
+        location: Gainesville, FL, USA
+        start_date: 2024-08
+        end_date: 2026-05
+        summary: >
+          Research under Prof. Rushikesh Kamalapurkar on nonlinear,
+          adaptive, safety-critical, and learning-based control.
+        highlights:
+          - "Designed and implemented a reusable ROS 2 navigation framework for nonholonomic ground robots, enabling experimental validation of scalar-field mapping algorithms and supporting multiple journal manuscripts."
+          - "Developed and validated obstacle-avoidance controllers under partial-state feedback through simulation and quadrotor experiments."
+          - "Developed reinforcement-learning-based control policies for safe navigation under uncertain dynamics while enforcing obstacle-avoidance constraints."
+          - "Mentored a high-school intern in experimental setup using Raspberry Pi, Ubuntu, and ROS 2."
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - company: University of Florida
+        position: Graduate Teaching Assistant
+        location: Gainesville, FL, USA
+        start_date: 2025-08
+        end_date: 2025-12
+        summary: >
+          Teaching assistant under Prof. Amor A. Menezes.
+        highlights:
+          - "Supported a graduate Control Systems Theory course by grading coursework, providing feedback, and clarifying course material."
+          - "Served as a teaching assistant for Introduction to Aerospace Engineering, administering quizzes, grading submissions, and answering student questions."
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - company: National Center for Combustion Research and Development, IIT Madras
+        position: Undergraduate Research Assistant
+        location: Chennai, India
+        start_date: 2022-01
+        end_date: 2024-01
+        highlights:
+          - "Created and fabricated 3D door models in SolidWorks for experimental setups."
+          - "Set up and assisted with optical-flow measurements during wind-tunnel experiments."
+          - "Designed and implemented a PID controller for regulating air speed in an accelerating-flow wind tunnel."
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Safety-Critical Control in Nonlinear Systems
+        start_date: 2025-01
+        end_date: Present
+        summary: >
+          Developed safety-critical controllers for uncertain and output-feedback
+          nonlinear systems with theoretical stability and safety guarantees.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "Used Lyapunov theory to establish safety and stability."
+          - "Validated controllers in MATLAB, Python, and Gazebo."
+          - "Implemented controllers on holonomic robots and quadcopters using ROS 2."
+          - "Performed comparative studies against foundational safety-critical control methods."
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Online Adaptive Control with Non-Smooth l1 Regularization
+        start_date: 2025-01
+        end_date: Present
+        summary: >
+          Developed adaptive-control methods that use sparsity-inducing l1
+          regularization to reduce the number of active basis functions.
+        highlights:
+          - "Used non-smooth Lyapunov analysis."
+          - "Validated the methods in MATLAB and Python."
+          - "Led preparation of the IEEE CDC 2026 manuscript."
+          - "Contributed to a related IEEE Transactions on Automatic Control manuscript using Memory Regressor Extension."
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Scalar Field Mapping Using Gaussian Processes and Hough Transform
+        start_date: 2025-01
+        end_date: 2026-05
+        summary: >
+          Developed and experimentally validated ROS 2 workflows for
+          safety-aware scalar-field mapping using nonholonomic ground robots.
+        highlights:
+          - "Developed a waypoint-navigation workflow for nonholonomic ground robots."
+          - "Validated the method experimentally using light-intensity mapping while avoiding high-intensity regions."
+          - "Developed ROS 2 workflows that became common starting points for laboratory experiments."
+          - "Contributed to manuscript preparation for IEEE Transactions on Control Systems Technology."
+
+    Reviewing:
+      - name: Peer Review
+        icon: fa-solid fa-file-circle-check
+        keywords: >
+          IEEE Transactions on Automation Science and Engineering,
+          Springer Nature, IEEE Control Systems Society
+
+    Awards:
+      - title: 64th Foundation Freeship Scholarship
+        awarder: Indian Institute of Technology Madras
+        summary: >
+          Awarded a one-year tuition waiver for academic performance.
+
+      - title: University of Florida Academic Achievement Award
+        awarder: University of Florida
+
+      - title: IFAC Foundation Travel Grant
+        awarder: International Federation of Automatic Control
+        date: 2026
+        summary: >
+          Registration-fee support to attend and present at the
+          2026 IFAC World Congress in Busan.
+
+      - title: Phi Kappa Phi Honor Society
+        awarder: University of Florida
+        summary: >
+          Selected based on interdisciplinary academic achievement.
+
+    Skills:
+      - name: Control Theory
+        icon: fa-solid fa-chart-line
+        keywords: >
+          Nonlinear Control, Adaptive Control, Safety-Critical Control,
+          Lyapunov Stability, Barrier States, Control Barrier Functions,
+          System Identification, Optimal Control
+
+      - name: Robotics
+        icon: fa-solid fa-robot
+        keywords: >
+          ROS 2, Gazebo, Nonholonomic Robots, Quadrotors,
+          Raspberry Pi, Sensor Integration
+
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: >
+          MATLAB, Python, C++, LaTeX, Git
+
+      - name: Machine Learning
+        icon: fa-solid fa-brain
+        keywords: >
+          Gaussian Processes, Reinforcement Learning,
+          Pattern Recognition, Deep Learning
+
+    Leadership and Service:
+      - name: Student Mentor, SAATHI Mentorship Program
+        start_date: 2021-08
+        end_date: 2022-05
+        summary: "Indian Institute of Technology Madras"
+
+      - name: Student Representative, Aerospace Engineering Department Committee
+        start_date: 2021-08
+        end_date: 2024-05
+        summary: "Indian Institute of Technology Madras"
+
+      - name: Volunteer, National Service Scheme
+        start_date: 2020-08
+        end_date: 2024-01
+        summary: "Indian Institute of Technology Madras"
+
+      - name: Operations Lead, Aerospace Engineering Association
+        start_date: 2022-08
+        end_date: 2024-05
+        summary: "Indian Institute of Technology Madras"
