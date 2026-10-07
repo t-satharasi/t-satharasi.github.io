@@ -27,7 +27,6 @@ last_updated: false
 impressum_path:
 back_to_top: true
 
-
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
@@ -45,7 +44,6 @@ repo_trophies:
 external_services:
   github_readme_stats_url: https://github-stats-extended.vercel.app
   github_profile_trophy_url: https://github-profile-trophy.vercel.app
-
 
 # -----------------------------------------------------------------------------
 # al-folio API
@@ -83,7 +81,6 @@ al_folio:
     channel: stable
     auto_apply_safe_fixes: false
 
-
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
@@ -98,7 +95,6 @@ bib_search: true
 
 max_width: 930px
 
-
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
@@ -106,7 +102,6 @@ max_width: 930px
 serve_og_meta: true
 serve_schema_org: true
 og_image:
-
 
 # -----------------------------------------------------------------------------
 # Analytics and search verification
@@ -124,7 +119,6 @@ enable_simple_analytics: false
 google_site_verification:
 bing_site_verification:
 
-
 # -----------------------------------------------------------------------------
 # Newsletter
 # -----------------------------------------------------------------------------
@@ -132,7 +126,6 @@ bing_site_verification:
 newsletter:
   enabled: false
   endpoint:
-
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -149,7 +142,6 @@ collections:
 
   projects:
     output: true
-
 
 # -----------------------------------------------------------------------------
 # Markdown
@@ -170,7 +162,6 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
-
 
 # -----------------------------------------------------------------------------
 # Includes / excludes
@@ -206,7 +197,6 @@ keep_files:
   - .nojekyll
 
 theme: al_folio_core
-
 
 # -----------------------------------------------------------------------------
 # Plugins
@@ -254,7 +244,6 @@ plugins:
   - al_marimo
   - al_rtl
 
-
 # -----------------------------------------------------------------------------
 # Sitemap
 # -----------------------------------------------------------------------------
@@ -265,14 +254,12 @@ defaults:
     values:
       sitemap: false
 
-
 # -----------------------------------------------------------------------------
 # Sass
 # -----------------------------------------------------------------------------
 
 sass:
   style: compressed
-
 
 # -----------------------------------------------------------------------------
 # Minifier
@@ -286,7 +273,6 @@ jekyll-minifier:
 terser:
   compress:
     drop_console: true
-
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -314,7 +300,6 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
-
 
 # -----------------------------------------------------------------------------
 # Publication display
@@ -360,7 +345,6 @@ max_author_limit: 3
 more_authors_animation_delay: 10
 enable_publication_thumbnails: true
 
-
 # -----------------------------------------------------------------------------
 # External links
 # -----------------------------------------------------------------------------
@@ -370,7 +354,6 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
-
 
 # -----------------------------------------------------------------------------
 # Responsive images
@@ -399,7 +382,6 @@ imagemagick:
 
 lazy_loading_images: true
 
-
 # -----------------------------------------------------------------------------
 # Optional features
 # -----------------------------------------------------------------------------
@@ -419,7 +401,6 @@ enable_project_categories: true
 enable_medium_zoom: true
 enable_progressbar: true
 enable_video_embedding: false
-
 
 # -----------------------------------------------------------------------------
 # External JSON data
