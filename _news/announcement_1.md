@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper **"Adaptive Control with Sparse Identification of Nonlinear Dynamics"** Accepted for oral presentation at the Conference on Decision and Control 2026.
+The manuscript **"Adaptive Control with Sparse Identification of Nonlinear Dynamics"** Accepted for oral presentation at the Conference on Decision and Control 2026.
