@@ -42,7 +42,7 @@ nav_order: 4
         <div class="ts-visual-top">{{ project.visual_label | default: 'CONTROL SYSTEMS' }}</div>
         <div class="ts-visual-bottom">
           <span>{{ project.category | upcase }}</span>
-          {% if project.video_count %}<span>{{ project.video_count }} VIDEO RECORDINGS</span>{% endif %}
+          {% if project.video_count %}<span>{{ project.video_count }} VIDEO{% if project.video_count != 1 %}S{% endif %}</span>{% endif %}
         </div>
       </div>
       <div class="ts-card-copy">
