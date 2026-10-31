@@ -84,10 +84,12 @@
 .ts-videos { display: grid; grid-template-columns: minmax(0,1fr); gap: 1rem; }
 .ts-video-card { border: 1px solid var(--ts-border); border-radius: 15px; overflow: hidden; background: var(--ts-surface); }
 .ts-video-frame { aspect-ratio: 16 / 9; background: linear-gradient(145deg,#081a24,#15394a); position:relative; overflow:hidden; }
+.ts-video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block; }
 .ts-video-frame video { width:100%; height:100%; display:block; object-fit:contain; background:#0b1923; }
 .ts-video-meta { padding: .9rem 1rem 1rem; }
 .ts-video-meta h3 { font-size:.95rem; font-weight:710; margin:0 0 .25rem; }
 .ts-video-meta p { margin: 0; color:var(--ts-muted); font-size:.79rem; line-height:1.5; }
+.ts-video-external { display: inline-block; margin-top: .6rem; font-size: .82rem; font-weight: 600; }
 .ts-about-grid { display: grid; grid-template-columns: minmax(0,1.1fr) minmax(0,.9fr); gap:2.2rem; margin: 2.3rem 0; }
 .ts-about-grid h2 { font-size: 1.23rem; font-weight:730; margin: 0 0 .7rem; }
 .ts-about-grid p { color:var(--ts-muted); line-height:1.77; margin:0; }
