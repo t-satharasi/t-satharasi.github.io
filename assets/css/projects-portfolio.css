@@ -81,16 +81,10 @@
 .ts-content-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; border-bottom: 1px solid var(--ts-border); padding-bottom: .8rem; margin: 2.5rem 0 1.15rem; }
 .ts-content-heading h2 { margin: 0; font-size: 1.35rem; letter-spacing: -.02em; font-weight: 730; }
 .ts-content-heading span { color: var(--ts-muted); font-size: .8rem; }
-.ts-videos { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; }
+.ts-videos { display: grid; grid-template-columns: minmax(0,1fr); gap: 1rem; }
 .ts-video-card { border: 1px solid var(--ts-border); border-radius: 15px; overflow: hidden; background: var(--ts-surface); }
-.ts-video-card:first-child { grid-column: 1 / -1; }
 .ts-video-frame { aspect-ratio: 16 / 9; background: linear-gradient(145deg,#081a24,#15394a); position:relative; overflow:hidden; }
 .ts-video-frame video { width:100%; height:100%; display:block; object-fit:contain; background:#0b1923; }
-.ts-video-pending { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: .5rem; color: #b2d7dc; text-align: center; }
-.ts-video-pending::before { content: ''; width: 58px; height: 58px; border-radius: 50%; border: 1px solid rgba(169,220,223,.55); background: radial-gradient(circle,rgba(100,194,199,.13),transparent); }
-.ts-video-pending strong { color: #eafcfc; font-size: .95rem; }
-.ts-video-pending span { font-size: .77rem; color:#91bbc3; }
-.ts-video-no { position:absolute; top:1rem; left:1rem; color:#9ac4c9; font-size:.7rem; letter-spacing:.1em; text-transform:uppercase; }
 .ts-video-meta { padding: .9rem 1rem 1rem; }
 .ts-video-meta h3 { font-size:.95rem; font-weight:710; margin:0 0 .25rem; }
 .ts-video-meta p { margin: 0; color:var(--ts-muted); font-size:.79rem; line-height:1.5; }
@@ -105,8 +99,6 @@
   .ts-card-visual {min-height:250px;}
   .ts-specs {grid-template-columns:1fr; gap:.55rem;}
   .ts-spec {min-height:0;}
-  .ts-videos {grid-template-columns:1fr;}
-  .ts-video-card:first-child {grid-column:auto;}
   .ts-about-grid {grid-template-columns:1fr; gap:1.4rem;}
   .ts-content-heading span {font-size:.7rem;}
 }
