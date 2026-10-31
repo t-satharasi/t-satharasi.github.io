@@ -16,10 +16,10 @@ tags:
   - Output Feedback
   - Safety-Critical Control
 video:
-  title: Experiment demonstration
-  src: /assets/video/safety-aware-output-feedback/experiment.mp4
-  description: Safety-aware output-feedback experiment on a PX4 quadrotor in Gazebo.
-  ready: true
+  title: PX4 / Gazebo Simulation Demonstration
+  embed_url: https://drive.google.com/file/d/1iy9XiC47Icx7ujt07oWPPF_mGY242wqb/preview
+  watch_url: https://drive.google.com/file/d/1iy9XiC47Icx7ujt07oWPPF_mGY242wqb/view?usp=sharing
+  description: Safety-aware output-feedback control using acceleration-level commands in a Gazebo PX4 quadrotor simulation.
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/projects-portfolio.css' | relative_url }}">
@@ -44,17 +44,19 @@ video:
     <div class="ts-videos">
       <div class="ts-video-card">
         <div class="ts-video-frame">
-          {% if page.video.ready %}
-          <video controls playsinline preload="metadata" aria-label="{{ page.video.title | escape }}">
-            <source src="{{ page.video.src | relative_url }}" type="video/mp4">
-            Your browser does not support HTML5 video.
-          </video>
-          {% else %}
-          <div class="ts-video-no">PX4 &middot; Gazebo</div>
-          <div class="ts-video-pending"><strong>Experiment video</strong><span>Video to be uploaded</span></div>
-          {% endif %}
+          <iframe
+            src="{{ page.video.embed_url }}"
+            title="{{ page.video.title | escape }}"
+            loading="lazy"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen>
+          </iframe>
         </div>
-        <div class="ts-video-meta"><h3>{{ page.video.title }}</h3><p>{{ page.video.description }}</p></div>
+        <div class="ts-video-meta">
+          <h3>{{ page.video.title }}</h3>
+          <p>{{ page.video.description }}</p>
+          <a class="ts-video-external" href="{{ page.video.watch_url }}" target="_blank" rel="noopener noreferrer">Watch on Google Drive ↗</a>
+        </div>
       </div>
     </div>
   </section>
