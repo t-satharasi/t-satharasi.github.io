@@ -69,6 +69,16 @@
 .ts-card-link span { margin-left: .35rem; color: #2b919c; }
 .ts-empty-note { color: var(--ts-muted); font-size: .9rem; }
 
+/* Source-code and experiment links on project pages */
+.ts-project-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .7rem; margin-top: 1.4rem; }
+.ts-action { display: inline-flex; align-items: center; justify-content: center; gap: .6rem; padding: .72rem 1rem; border-radius: 10px; font-size: .85rem; line-height: 1.2; font-weight: 700; transition: transform .18s ease, background .18s ease, border-color .18s ease; }
+.ts-action:hover, .ts-action:focus-visible { transform: translateY(-1px); text-decoration: none; }
+.ts-action--primary { background: #167d89; border: 1px solid #167d89; color: #fff !important; }
+.ts-action--primary:hover, .ts-action--primary:focus-visible { background: #11636d; color: #fff !important; }
+.ts-action--secondary { border: 1px solid var(--ts-border); color: var(--ts-ink) !important; background: var(--ts-surface); }
+.ts-action--secondary:hover, .ts-action--secondary:focus-visible { border-color: #4fa5ad; }
+#experiment-video { scroll-margin-top: 85px; }
+
 /* Project detail page */
 .ts-case-study { max-width: 1040px; margin: 0 auto; }
 .ts-back-link { display:inline-block; margin: .5rem 0 2rem; color: var(--ts-muted) !important; font-size: .84rem; }
