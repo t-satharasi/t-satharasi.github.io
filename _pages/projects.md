@@ -2,64 +2,38 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Selected research experiments and robotics implementations
+description: Research and experimental implementations
 nav: true
 nav_order: 4
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/projects-portfolio.css' | relative_url }}">
+<style>
+  .ts-project-intro { margin: 0 0 2rem; }
+  .ts-project-intro p { color: var(--global-text-color); opacity: .8; max-width: 660px; }
+  .ts-project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 1.25rem; }
+  .ts-project-card { display: block; padding: 1.5rem; border: 1px solid var(--global-divider-color, #d5dce2); border-radius: 14px; text-decoration: none !important; color: inherit !important; transition: border-color .2s, transform .2s; }
+  .ts-project-card:hover { border-color: var(--global-theme-color, #127c85); transform: translateY(-2px); }
+  .ts-project-card .tag { color: var(--global-theme-color, #127c85); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; font-weight: 700; }
+  .ts-project-card h3 { margin: .7rem 0; font-size: 1.2rem; }
+  .ts-project-card p { margin: 0 0 1.2rem; opacity: .78; }
+  .ts-project-card .cta { color: var(--global-theme-color, #127c85); font-weight: 600; }
+</style>
 
-<div class="ts-portfolio">
-  <header class="ts-intro">
-    <span class="ts-eyebrow">Research &amp; engineering</span>
-    <h2>Control theory, tested in the loop.</h2>
-    <p>Selected experiments and implementations in safety-critical control, state estimation, and autonomous systems.</p>
-  </header>
+<section class="ts-project-intro">
+  <h2>Research &amp; engineering</h2>
+  <p>Selected implementations in safety-critical control, estimation, and autonomous systems.</p>
+</section>
 
-  <div class="ts-section-bar">
-    <h2>Selected projects</h2>
-    <span>Simulation &middot; Robotics &middot; Experiments</span>
-  </div>
-
-  {% assign research_projects = site.projects | where: 'category', 'research' %}
-  {% assign robotics_projects = site.projects | where: 'category', 'robotics' %}
-  {% assign portfolio_projects = research_projects | concat: robotics_projects | sort: 'importance' %}
-
-  <div class="ts-project-grid">
-    {% for project in portfolio_projects %}
-    <a class="ts-project-card{% if project.featured %} ts-project-card--feature{% endif %}" href="{{ project.url | relative_url }}" aria-label="Read about {{ project.title | escape }}">
-      <div class="ts-card-visual">
-        {% if project.img %}
-          <img src="{{ project.img | relative_url }}" alt="{{ project.title | escape }}" loading="lazy">
-        {% else %}
-          <div class="ts-graphic" aria-hidden="true">
-            <div class="ts-gridlines"></div>
-            <div class="ts-orbit"></div>
-            <div class="ts-orbit ts-orbit--inner"></div>
-            <div class="ts-graphic-center"><strong>PX4</strong><small>Gazebo simulation</small></div>
-          </div>
-        {% endif %}
-        <div class="ts-visual-top">{{ project.visual_label | default: 'CONTROL SYSTEMS' }}</div>
-        <div class="ts-visual-bottom">
-          <span>{{ project.category | upcase }}</span>
-          {% if project.video_count %}<span>{{ project.video_count }} VIDEO{% if project.video_count != 1 %}S{% endif %}</span>{% endif %}
-        </div>
-      </div>
-      <div class="ts-card-copy">
-        <span class="ts-card-type">{{ project.kind | default: project.category }}</span>
+<div class="ts-project-grid">
+  {% assign ordered_projects = site.projects | sort: 'importance' %}
+  {% for project in ordered_projects %}
+    {% if project.category == 'research' or project.category == 'robotics' %}
+      <a class="ts-project-card" href="{{ project.url | relative_url }}">
+        <span class="tag">{{ project.category }}</span>
         <h3>{{ project.title }}</h3>
-        <p>{{ project.summary | default: project.description }}</p>
-        {% if project.tags %}
-        <div class="ts-tags">
-          {% for tag in project.tags %}<span class="ts-tag">{{ tag }}</span>{% endfor %}
-        </div>
-        {% endif %}
-        <span class="ts-card-link">Explore project <span aria-hidden="true">↗</span></span>
-      </div>
-    </a>
-    {% endfor %}
-  </div>
-  {% if portfolio_projects.size == 0 %}
-  <p class="ts-empty-note">Projects will appear here as they are added.</p>
-  {% endif %}
+        <p>{{ project.description }}</p>
+        <span class="cta">View project ↗</span>
+      </a>
+    {% endif %}
+  {% endfor %}
 </div>
